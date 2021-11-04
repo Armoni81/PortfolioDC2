@@ -111,97 +111,24 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-
-	@media all and (max-width:736px){
-	
-	#soft{ 
-		display: flex;
-		position: relative;
-		top:190px;
-		position: relative;
-		top:150px;
-	}
-	
-	#dev{
-		
-		position: relative;
-		top:100px;
-		left:275px
-	}
-	@media all and (max-width:701px){
-		#dev{
-			position:relative;
-			left:200px;
-		}
-	@media all and (max-width:431px){
-		#dev{
-			position: relative;
-			left:150px
-		}
-	}
-	}
-	
-
-	}
-	@media all and (max-width:573px){
-		#dev{
-			position:relative;
-			left: 170px;
+		@media all and (max-width:1200px){
+			#dev{
+				display: flex;
+				justify-content: flex-end;
+				position: relative;
+				top:100px;
+				font-weight: 900;
+			}
+			#soft{
+				display:flex;
+				position: relative;
+				top:150px;
+				font-weight: 900;
+				
+			}
 		}
 	
 	
-
-	}
-	@media all and (max-width:450px){
-		#dev{
-			position:relative;
-			left: 190px;
-		}
-		#soft{
-			position: relative;
-			right: -0px; 
-		}
-
-
-	}
-	@media all and (min-width:737px){
-		#dev{
-			position:relative;
-			
-			top:100px
-		}
-		#soft{
-			position: relative;
-			right: 3px;
-			
-		}
-	@media all and (min-width:429px) {
-		#dev{
-			position: relative;
-			top:100px
-			
-		}
-		
-	}
-	@media all and (min-width:433px){
-		#dev{
-			position:relative;
-			right: 50px
-		}
-	}
-
-	}
-@media all and (min-width:737px){
-	#dev{
-		position: relative;
-		left:200px
-	}
-	#soft{
-		position: relative;
-		right:200px;
-		top: 153px;
-	}
-}
 
 
 	#resume1{
