@@ -32,7 +32,22 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
+.email{
+	font-family: cursive;
+	font-weight: 700;
+	position: relative;
+	top:20px;
+	font-size: 10pt;
+}
+.myName{
+	font-family: 'Dosis', sans-serif;
+	-webkit-text-stroke:black 0.15vw;
+	-webkit-text-fill-color: chartreuse;
+}
+.proj1link{
+	display:flex;
+	flex-direction: column;
+}
 ol, ul {
 	list-style: none;
 }
@@ -1180,6 +1195,9 @@ input, select, textarea {
 			background-color: #ffffff;
 			color: #1b1f22 !important;
 			font-weight: 600;
+		}
+		.primary{
+			padding:10px
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
