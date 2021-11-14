@@ -137,7 +137,7 @@ input, select, textarea {
 			#soft{
 				display:flex;
 				position: relative;
-				top:150px;
+				top:159px;
 				font-weight: 900;
 				
 			}
@@ -241,6 +241,10 @@ input, select, textarea {
 
 			html {
 				font-size: 11pt;
+			}
+			#soft{
+				position: relative;
+				top:152px
 			}
 
 		}
@@ -1488,6 +1492,11 @@ input, select, textarea {
 			position: relative;
 			bottom: 90px;
 			font-weight: 900;
+			-webkit-text-fill-color: rgb(0, 30, 255);
+			
+			-webkit-text-stroke:rgb(255, 255, 255) 0.02vw;
+			border: 2px rgb(228, 182, 182) bottom;
+
 		
 			
 		}
@@ -1884,3 +1893,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		Front end development is a great fit for me as I have a creative background in photography. UPS also seems to be a great compnay to work for as you guys put an emphasis on diversity!
