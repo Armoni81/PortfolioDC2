@@ -251,7 +251,7 @@ input, select, textarea {
 		@media screen and (max-width:738px){
 			#soft{
 				position: relative;
-				top:150px
+				top: 150px;
 			}
 		}
 
@@ -1499,7 +1499,7 @@ input, select, textarea {
 			bottom: 90px;
 			font-weight: 900;
 			-webkit-text-fill-color: rgb(0, 30, 255);
-			
+			font-size: 8pt;
 			-webkit-text-stroke:rgb(255, 255, 255) 0.02vw;
 			border: 2px rgb(228, 182, 182) bottom;
 
